@@ -14,10 +14,15 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body class="show-chatbot">
+    <button class="chatbot-toggler">
+      <i class="fa-solid fa-list"></i>
+      <i class="fa-solid fa-xmark"></i>
+    </button>
     <div class="chatbot">
       <header>
-        <h2>Chatbot</h2>
+        <h2>Minjaero</h2>
+        <i class="fa-solid fa-xmark"></i>
       </header>
       <ul class="chatbox">
         <li class="chat incoming">
@@ -29,7 +34,7 @@
         </li>
       </ul>
       <div class="chat-input">
-        <textarea placeholder="Enter a message..."></textarea>
+        <textarea placeholder="Enter a message..." required></textarea>
         <i class="fa-regular fa-paper-plane"></i>
       </div>
     </div>
